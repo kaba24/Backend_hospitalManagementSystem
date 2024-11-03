@@ -18,5 +18,4 @@ public class PatientService {
         Optional<Patient> optionPatient = patientRepository.findById(id);
         return optionPatient.orElseThrow(() -> new ResourceAccessException("Patient not available"));
     }
-    
 }

@@ -6,4 +6,5 @@ import com.hopital.management.model.Appointment;
 
 public interface AppointmentRepository extends JpaRepository<Appointment , Long> {
     
+    
 }
